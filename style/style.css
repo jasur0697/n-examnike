@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../Fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../Fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+body {
+    margin:0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', 'Arial' sans-serif;
+   
+}
+
+.container {
+    max-width: 1250px;
+    padding:0 25px;
+    margin-right:auto ;
+    margin-left: auto;
+    overflow: hidden; 
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+    width: 1100px;
+}
+
+.nav-logo {
+    margin-right:500px;
+}
+
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+
+}
+
+
+.nav-list-elems {
+    margin-right: 30px;
+    font-family: 'Roboto', 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22,5px;
+    text-align: center;
+    color: #666666;
+}
+
+.nav-list-elems:hover {
+    font-family: 'Roboto', 'Arial' sans-serif;
+    border-bottom: 3px solid #333333;
+    transform: rotate(0.16deg);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22,5px;
+    text-align: center;
+    outline: none;
+}
+
+.nav-list-elems a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+.search-help {
+    font-family: 'Roboto', 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22,5px;
+    text-align: center;
+    color: #666666;
+    transform: rotate(0.16deg);
+    width: 149px;
+
+}
+
+.search-input {
+    border: none;
+    width: 149px;
+    font-family: 'Roboto', 'Arial' sans-serif;
+    font-style: normal;
+    font-weight: normal;    
+    line-height: 22,5px;
+    color: #666666;
+    border-bottom: 1px solid  #333333;
+    padding-bottom: 5px;
+    margin:0;
+}
+
+
+
+
+.search-input:focus, textarea:focus, select:focus{
+    outline: 1px solid #666666;
+    border:none;
+
+}
+
+
+.freedom-calls {
+    position: relative;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:85px;
+    padding: 0;
+    height: 545px;
+    border-bottom: 2px solid #DDDDDD;
+
+
+}
+
+.freedom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 490px;
+    height: 291px;
+}
+
+.apple-watch {
+    background: url(../img/apple-watch.svg);
+    position: absolute;
+    width: 587px;
+    height: 545px;
+    top: 0px;
+    left: 860px;
+}
+
+.freedom-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    list-style: 60px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.freedom-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.left-border {
+    border-left: 3px solid #888888;
+    padding-left:40px;
+
+}
+
+.freedom-watch-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: static;
+    width: 260px;
+    height: 51px;
+    left: 0px;
+    top: 240px;
+    background: #EA625C;
+    padding: 12px;
+    text-decoration: none;
+}
+
+
+.advices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    width: 1100px;
+
+}
+
+.advice-list {
+    width: 280px;
+    height: 255px;
+    margin-top:68px;
+
+}
+
+.ad-list-space {
+    margin-right: 80px;
+}
+
+.advice-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.advice-paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;  
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.squares{
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color:#DDDDDD;
+    margin-right: 10px;
+}
+
+.learn-more {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #EA625C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.learn-more::before {
+    content: "";
+    width: 40px;
+    border: 3px solid #EA625C;
+    margin-right: 10px;
+}
+
+
+
+.buy {
+    height: 600px;
+    width: 1100px;
+    border-bottom: none;
+}
+
+.watch-on-hand {
+    background-image: url(../img/watch-in-hand.svg);
+    background-repeat: no-repeat;
+    width:400px;
+    height: 600px;
+}
+
+.footer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(../img/runners.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:70px;
+}
+
+
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 490px;
+    height: 291px;
+    margin: 240px 125px 240px 635px;
+
+}
+
+
+.footer-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    list-style: 60px;
+    color: white;;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.left-border {
+    border-left: 3px solid white;
+    padding-left:40px;
+
+}
+
+.footer-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: static;
+    width: 260px;
+    height: 51px;
+    left: 0px;
+    top: 240px;
+    background: #EA625C;
+    padding: 12px;
+    text-decoration: none;
+}
