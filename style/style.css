@@ -284,7 +284,7 @@ body {
 }
 
 .watch-on-hand {
-    background-image: url(../img/watch-in-hand.svg);
+    background-image: url(../img/watch-in-hand.png);
     background-repeat: no-repeat;
     width:400px;
     height: 600px;
@@ -293,7 +293,7 @@ body {
 .footer {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: url(../img/runnes.svg);
+    background-image: url(../img/runnes.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top:70px;
